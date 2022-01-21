@@ -1,0 +1,27 @@
+{
+  "name": "nodeexpresstypescriptserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build:watch": "webpack -w",
+    "build": "webpack",
+    "dev": "nodemon build/index.js"
+  },
+  "keywords": [],
+  "author": "Arnas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.8",
+    "nodemon": "^2.0.15",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.4",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
